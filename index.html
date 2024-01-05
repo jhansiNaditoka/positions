@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           height: 50vh;
+           width:35vw;
+           background-color: pink;
+        }
+        .relative{
+            height: 60vh;
+           width:35vw;
+           background-color: greenyellow;
+
+        }
+        .columns{
+            border: 2px solid black;
+            width: fit-content;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            gap: 4px;
+        }
+        .columns{
+            border: 2px solid black;
+            text-align: center;
+        }
+        .sec1,.sec2,.sec3{
+            border: 2px solid black;
+            width: fit-content;
+            padding-left: 10px;
+            padding-right: 10px;
+            display: flex;
+            gap: 4px;
+            background: linear-gradient(to left ,blue,pink);
+        }
+        .sec1 p,.sec2 p,.sec3 p{
+            border: 2px solid black;
+            text-align: center;
+        }
+       
+
+  </style>
+</head>
+<body>
+    <h1>Using absolute design</h1>
+    <div class="container">
+        <div style="position: absolute;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: absolute;  right:980px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: absolute; right:1000px;bottom:270px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: absolute; bottom:270px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: absolute; left:200px;top:180px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+    </div>
+    <hr>
+    <h1>Using relative design</h1>
+    <div class="relative">
+        <div style="position: relative;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: relative;  left:450px; bottom:100px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: relative; left:210px;top:-10px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: relative; top:30px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+        <div style="position: relative; right:-450px; top:-80px;"><img src="https://img.freepik.com/premium-vector/cute-little-penguin-cartoon-sitting_188253-2839.jpg?w=2000" height="100" width="100"/></div>
+    </div> 
+    <hr>
+    <h1>Column 1</h1>
+    <div class="sec1">
+        <p>A clean, pure comedy with beautiful love chemistry story in these recent times i have watched. I hope everyone will connect to those characters. Definitely a relaxing entertaining movie, one can watch with full family.
+
+            The feel of love, or the chemistry between Mr. Polishetty and Mrs Shetty is wonderful.
+            
+            The concept of trust and hope in love is beautifully portrayed by the director Mr. Mahesh.
+            
+        </p>  <p>HTML stands for Hyper Text Markup Language
+            HTML is the standard markup language for creating Web pages
+            HTML describes the structure of a Web page
+            HTML consists of a series of elements
+            HTML elements tell the browser how to display the content
+            HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc</p>
+        <p>Web pages can be created and modified by using professional HTML editors.
+
+            However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).
+            
+            We believe that using a simple text editor is a good way to learn HTML.
+            
+            Follow the steps below to create your first web page with Notepad or TextEdit.</p>
+        <p>All HTML elements can have attributes
+            Attributes provide additional information about elements
+            Attributes are always specified in the start tag
+            Attributes usually come in name/value pairs like: name="value"
+            </p>
+    </div>
+    <h1>Column 2</h1>
+    <div class="sec2">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, debitis praesentium! Saepe quo expedita odio assumenda, sequi eaque voluptate eius autem accusamus perferendis? Accusantium sint quaerat cum dolorum similique nihil.
+        </p>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere consequatur voluptate asperiores exercitationem, quo est magni cupiditate officia nobis doloribus expedita eius adipisci perferendis, accusamus ipsum, odit quas repellendus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nam perferendis, amet possimus itaque nisi distinctio inventore dolor, facilis praesentium autem, eos earum neque at pariatur odit vitae repudiandae reiciendis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, blanditiis necessitatibus fugiat laudantium reprehenderit praesentium, temporibus dicta quam voluptatem beatae, quidem at atque! Nisi sint optio expedita ullam reiciendis non?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel est veniam voluptas, consectetur molestiae cum distinctio saepe repellat explicabo. Possimus repudiandae quaerat cupiditate tempore! Nesciunt soluta quis dicta praesentium laborum.
+                
+            </p> 
+    </div>
+    <h1>Column 3</h1>
+    <div class="sec3">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis mollitia adipisci voluptatum, quod aliquid optio itaque perferendis exercitationem, unde, corporis quas sit facilis. Error architecto maiores, praesentium amet blanditiis similique.
+            
+        </p>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cum corporis, debitis laborum unde consequatur dolores dignissimos aliquam ab fuga doloribus, dolorem mollitia possimus quae eaque optio nihil. Consectetur, accusantium.
+
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quos ex veniam facilis rerum laboriosam voluptatibus dolores labore quo autem accusantium corporis quod. Enim perspiciatis, amet harum doloribus molestias ipsa!.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime in quae perspiciatis nisi. Reprehenderit nostrum beatae in quia quos error enim dolorum doloremque molestias? Vero, quam. Possimus beatae eum asperiores?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dolor ex perferendis saepe cum iure minus, at illo velit provident! Non nulla assumenda voluptatibus quasi! Corrupti repellat libero repudiandae delectus?
+                
+            </p>  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in aliquam architecto? Consequatur in totam, voluptatum quaerat expedita culpa a dicta quam itaque dolor inventore sed vitae possimus vero. Tempora.</p>
+            
+    </div><br>
+</div>
